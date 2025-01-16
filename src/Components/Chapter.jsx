@@ -9,6 +9,10 @@ const Chapter = () => {
         <h3>New Year, New You</h3>
         <button className="shop-now-btn1">Shop Now</button>
       </div>
+      <div className="chapter-image">
+        <img src="chapter.png" alt="new arrivals" />
+
+      </div>
     </div>
   );
 };

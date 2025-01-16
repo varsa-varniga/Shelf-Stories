@@ -87,6 +87,21 @@ const App = () => {
     { title: "Kingdom of the Wicked (Special Edition)", author: "Kerri Maniscalco", rating: 4, img: "kingdom_of_the_wicked_special.jpeg" }
   ];
   
+  const books6 = [
+    { title: "Fourth Wing", author: "Rebecca Yarros", rating: 5, img: "fourth_wing.jpeg" },
+    { title: "Light Bringer (Red Rising Saga)", author: "Pierce Brown", rating: 5, img: "light_bringer.jpeg" },
+    { title: "Iron Flame", author: "Rebecca Yarros", rating: 5, img: "iron_flame.jpeg" },
+    { title: "Lessons in Chemistry", author: "Bonnie Garmus", rating: 5, img: "lessons_in_chemistry.jpeg" },
+    { title: "Tomorrow, and Tomorrow, and Tomorrow", author: "Gabrielle Zevin", rating: 5, img: "tomorrow_and_tomorrow.jpeg" },
+  
+    { title: "The Seven Husbands of Evelyn Hugo", author: "Taylor Jenkins Reid", rating: 5, img: "evelyn_hugo.jpeg" },
+    { title: "Hell Bent", author: "Leigh Bardugo", rating: 5, img: "hell_bent.jpeg" },
+  
+    { title: "Happy Place", author: "Emily Henry", rating: 5, img: "happy_place.jpeg" },
+    { title: "Chain of Thorns", author: "Cassandra Clare", rating: 5, img: "chain_of_thorns.jpeg" },
+    { title: "Love, Theoretically", author: "Ali Hazelwood", rating: 4, img: "love_theoretically.jpeg" },
+    { title: "Divine Rivals", author: "Rebecca Ross", rating: 4, img: "Divine Rivals.jpeg" }
+  ];
   
   
   
@@ -105,7 +120,7 @@ const App = () => {
          <Bestsellers heading="Our Best YA Books" books={books4} />
         <Bestsellers heading="Signed & Special Editions" books={books5}/>
         <Chapter/>
-        <Bestsellers heading="Coming Soon" books={books1}/>
+        <Bestsellers heading="Coming Soon" books={books6}/>
         <Footer/>
         
       </main>

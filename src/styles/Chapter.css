@@ -1,11 +1,11 @@
 .chapter-section {
     position: relative;
-    /* background-image: url('chapter.png');  */
+    
     background-color: rgb(80, 129, 100);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 400px; /* Adjust height based on your preference */
+    height: 308px; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,10 +15,12 @@
   }
   
   .text-container1 {
-    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
+ 
     padding: 20px 40px;
     border-radius: 10px;
-    max-width: 600px;
+   width: 1200px;
+  
+
   }
   
   .text-container1 h1 {
@@ -35,7 +37,7 @@
   
   .shop-now-btn1 {
     padding: 10px 25px;
-    background-color: #ffdd00; /* Bright button color */
+    background-color: #ffdd00; 
     color: black;
     border: none;
     font-size: 1.2rem;
@@ -47,5 +49,11 @@
   
   .shop-now-btn1:hover {
     background-color: #e6c200;
+  }
+
+  .chapter-image{
+    width: 1000px;
+    height: auto;
+
   }
   
