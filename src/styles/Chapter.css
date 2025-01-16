@@ -1,0 +1,51 @@
+.chapter-section {
+    position: relative;
+    /* background-image: url('chapter.png');  */
+    background-color: rgb(80, 129, 100);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px; /* Adjust height based on your preference */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+    text-align: center;
+  }
+  
+  .text-container1 {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
+    padding: 20px 40px;
+    border-radius: 10px;
+    max-width: 600px;
+  }
+  
+  .text-container1 h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .text-container1 h3 {
+    font-size: 1.8rem;
+    margin: 15px 0;
+  }
+  
+  .shop-now-btn1 {
+    padding: 10px 25px;
+    background-color: #ffdd00; /* Bright button color */
+    color: black;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .shop-now-btn1:hover {
+    background-color: #e6c200;
+  }
+  

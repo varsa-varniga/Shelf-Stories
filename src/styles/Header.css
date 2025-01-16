@@ -1,0 +1,118 @@
+/* Header Styling */
+.header {
+  display: flex;
+  flex-direction: column; /* Stack header sections vertically */
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgb(79, 137, 144);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 18vh;
+}
+
+/* Logo and Search Bar Section (Horizontal) */
+.logo-search-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Space between logo and search bar */
+  width: 90%; /* Take full width */
+}
+
+.logo img {
+  width: 200px;
+  height: 80px;
+  font-weight: bold;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin-left: 20px;
+  width: 300px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  
+}
+
+.search-button {
+  padding: 10.3px 16px;
+  border: none;
+  background-color: #fafbfc;
+  color: rgb(8, 8, 8);
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+}
+
+.search-button:hover {
+  background-color: #7eb4c9;
+}
+
+
+/* icons */
+.icons {
+  display: flex;
+  gap: 20px;
+  align-items: center; /* Vertically align the items */
+padding-left: 80px;
+text-align: center;
+color: white;
+}
+
+
+
+
+/* Navigation Links Styling */
+.nav-links {
+  display: flex;
+  gap: 25px;
+  margin-left: 450px;
+  width: 100%; /* Take full width */
+  margin-top: 10px;
+
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  color: white;
+}
+
+.nav-link:hover {
+  color: #040b0c;
+}
+
+/* Dropdown Menu Styling */
+.dropdown {
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.dropdown-menu a {
+  text-decoration: none;
+  color: black;
+  padding: 8px 10px;
+}
+
+.dropdown-menu a:hover {
+  background-color: #007bff;
+  color: white;
+}

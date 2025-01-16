@@ -1,0 +1,55 @@
+.new-releases-section {
+    position: relative;
+    background-image: linear-gradient(to right, #ddf679, #61940a);
+     gap: 20px;
+    height: 300px; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px 50px; 
+    width: 90%;
+    margin-left: 100px;
+  }
+  
+  .text-container {
+    color: rgb(7, 7, 7);
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+  }
+  
+  .text-container h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .text-container h3 {
+    font-size: 2.5rem;
+    margin: 10px 0;
+  }
+  
+  .shop-now-btn {
+    padding: 10px 20px;
+    background-color: #609fdf; 
+    color: white;
+    border: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .shop-now-btn:hover {
+    background-color: #3f5e7d; 
+  }
+  
+  
+  .new-book img {
+     height: 290px;
+  width: 1000px;
+
+  
+  }
+  
