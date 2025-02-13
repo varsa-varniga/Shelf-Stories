@@ -1,7 +1,13 @@
 import React from "react";
 import "./../styles/Footer.css";
+import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Footer = () => {
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
   return (
     <footer className="footer">
       <div className="footer-content">
@@ -62,7 +68,10 @@ const Footer = () => {
         <p>
           Copyright | All Rights Reserved,Shelf Stories.com
         </p>
-        <p>Varniga Corp</p>
+        {/* <p>Varniga Corp</p> */}
+        <button className="scroll-to-top" onClick={scrollToTop}>
+          <FontAwesomeIcon icon={faArrowUp} />
+        </button>
       </div>
     </footer>
   );

@@ -25,7 +25,7 @@
     display: none; 
   }
   
-  .book-card {
+  .books-card {
     flex: 0 0 auto;
     width: 200px;
     border-radius: 8px;
@@ -34,11 +34,11 @@
     transition: transform 0.2s ease-in-out;
   }
   
-  .book-card:hover {
+  .books-card:hover {
     transform: scale(1.05);
   }
   
-  .book-image {
+  .books-image {
     width: 100%;
     height: 250px;
     object-fit: cover;
@@ -46,20 +46,20 @@
     border-top-right-radius: 8px;
   }
   
-  .book-title {
+  .books-title {
     font-size: 26px;
     font-weight: bold;
     margin: 10px 0 5px;
   }
   
-  .book-author {
+  .books-author {
     font-size: 18px;
     color: #555;
     margin-bottom: 10px;
     text-decoration: underline;
   }
   
-  .book-rating {
+  .books-rating {
     font-size: 24px;
     color: #f39c12;
     margin-bottom: 10px;

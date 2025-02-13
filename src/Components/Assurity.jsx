@@ -4,7 +4,7 @@ const Assurity=()=>{
     return(
     <>
 
-{/* <h2 id='assure-title'>Shelf Stories Assured</h2> */}
+
        <div className='Assuritysection'>
        
         <div className='block'>
